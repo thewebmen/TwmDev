@@ -29,7 +29,7 @@ Open **/etc/apache2/envvars** on your development server and add the following l
   
   Or use the following command:
   ```sh
-  php composer.phar require thewebmen/TwmDev ~1.0.0
+  php composer.phar require thewebmen/twm-dev ~1.0.0
   ```
   
 4. Add the module to the **end** of your array in application.config.php

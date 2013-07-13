@@ -1,5 +1,5 @@
 {
-    "name": "thewebmen/TwmDev",
+    "name": "thewebmen/twm-dev",
     "type": "library",
     "description": "ZF2 module to override settings with an additional config file when on development server.",
     "keywords": ["apache2","development","config"],
