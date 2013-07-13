@@ -1,0 +1,33 @@
+{
+    "name": "thewebmen/TwmDev",
+    "type": "library",
+    "description": "ZF2 module to override settings with an additional config file when on development server.",
+    "keywords": ["apache2","development","config"],
+    "homepage": "https://github.com/thewebmen/TwmDev",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rick Kuipers",
+            "homepage": "http://www.rickkuipers.com/",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/thewebmen/TwmDev/issues"
+    },
+    "require": {
+        "php": ">=5.3.3",
+        "zendframework/zendframework": "2.*",
+    },
+    "autoload": {
+        "psr-0": {
+            "TwmDev": "src"
+        },
+        "classmap" : ["Module.php"]
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
