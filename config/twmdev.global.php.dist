@@ -1,0 +1,11 @@
+<?php
+$settings = array(
+    'config_glob_paths' => 'config/autoload/{,*.}{dev}.php'
+);
+
+/**
+ * You do not need to edit below this line
+ */
+return array(
+    'twmdev' => $settings
+);
