@@ -23,7 +23,7 @@ Open **/etc/apache2/envvars** on your development server and add the following l
 
   ```json
   "require": {
-      "thewebmen/TwmDev": "~1.0.0"
+      "thewebmen/twm-dev": "~1.0.0"
   }
   ```
   
