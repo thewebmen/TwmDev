@@ -24,7 +24,7 @@ class Module
         if (!defined('DEV')) {
             if (Console::isConsole()) {
                 $params =& $_SERVER['argv'];
-                if ($dev = array_search('-dev', $params)) {
+                if ($dev = array_search('--dev', $params)) {
                     unset($params[$dev]);
                     define('DEV', true);
                 } else {
