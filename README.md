@@ -47,3 +47,7 @@ Usage
 ------------
 
 Create a **config/autoload/dev.php** and put any settings in there that should be used in development (like different database/credentials or disable caching).
+
+Because PHP CLI has no idea of the apache or httpd envvars it won't automatically recognize you're on a development server. For this I created a flag **--dev** which you can add when using the ZF2 CLI.
+That flag will tell TwmDev you're on development and load the development config.
+
